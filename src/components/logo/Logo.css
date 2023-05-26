@@ -1,0 +1,28 @@
+.form-header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+  }
+  .logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+  }
+  .logo-circle {
+    height: 3em;
+    width: 3em;
+    display: block;
+    background-color: #035fff;
+    border-radius: 50%;
+  }
+  .logo-box h1 {
+    font-size: 1.75em;
+    font-weight: 600;
+    margin-left: 0.6em;
+    color: #05365c;
+  }
+  .logo-box h1 .pay-text {
+    font-weight: 300;
+  }

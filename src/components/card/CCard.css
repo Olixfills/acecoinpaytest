@@ -1,0 +1,110 @@
+ 
+   .credit-card {
+    width: 8.5em;
+    height: 14em;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), #fff);
+    backdrop-filter: blur(15px);
+    padding: 1.6em;
+    border-radius: 1em;
+    box-shadow: 0px 4px 14px 2px rgba(224, 224, 224, 0.6);
+    position: relative;
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+  }
+   .credit-card__head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+    margin-bottom: 6em;
+  }
+   .credit-card__head img {
+    height: 25px;
+  }
+   .credit-card__head .chip {
+    height: 32px;
+  }
+   .credit-card__body {
+    position: relative;
+    color: #05365c;
+  }
+   .credit-card__body span {
+    display: block;
+  }
+   .credit-card__body .holder {
+    text-transform: capitalize;
+    font-size: 0.6em;
+    font-weight: 500;
+    color: #616161;
+  }
+   .credit-card__body .card-digits {
+    display: flex;
+    margin-bottom: 0.5em;
+  }
+   .credit-card__body .card-digits .hidden-digits {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    flex-direction: initial;
+    margin-right: 0.5em;
+  }
+   .credit-card__body .card-digits .hidden-digits .circle {
+    height: 0.3em;
+    width: 0.3em;
+    border-radius: 50%;
+    background-color: #17254c;
+    margin-right: 0.4em;
+  }
+   .credit-card__body .card-digits .visible-digits {
+    font-size: 0.8em;
+    font-weight: 700;
+  }
+   .credit-card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+    position: relative;
+    top: 1.4em;
+  }
+   .credit-card__footer .expiry {
+    font-size: 0.7em;
+    font-weight: 600;
+    color:#17254c
+  }
+   .credit-card__footer .logo {
+    height: 1.5em;
+  }
+   .credit-card .card__design {
+    width: 700px;
+    height: 700px;
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3.5em;
+    left: -6em;
+    z-index: -1;
+  }
+   .credit-card .card__design .inner {
+    display: inline-block;
+    width: 570px;
+    height: 570px;
+    border-radius: inherit;
+    border: inherit;
+  }
+   .blu {
+    display: block;
+    height: 1.5em;
+    width: 5em;
+    background-color: #035fff;
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
